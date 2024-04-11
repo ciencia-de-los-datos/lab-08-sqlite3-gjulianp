@@ -5,7 +5,7 @@
 --    K1  INT
 --    c12 FLOAT
 --    c13 INT
---    c14 DATE
+--    c14 DATEvs
 --    c15 FLOAT
 --    c16 CHAR(4)
 --
@@ -17,3 +17,4 @@
 --
 --  >>> Escriba su codigo a partir de este punto <<<
 --
+SELECT SUM(c12) FROM tbl1
